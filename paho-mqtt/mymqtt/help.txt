@@ -1,0 +1,5 @@
+# to run the monitor file in the mqtt, make sure you are in the dir that the monitor.py finds itself
+# or
+# else, specify the path in the ( )
+
+pi@raspberrypi:~/Desktop/dev/paho-mqtt/mymqtt $ mosquitto_pub -h 82.165.16.151 -m "$(./monitor.py) ~johnErbynn" -t UCC/pihealth
